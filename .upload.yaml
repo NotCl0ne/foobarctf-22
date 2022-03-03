@@ -1,0 +1,4 @@
+production-upload:
+    stage: build
+    script: 
+      - python3 ctfd.py
