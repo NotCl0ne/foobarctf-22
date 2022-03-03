@@ -1,0 +1,6 @@
+production-deploy:
+    stage: deploy
+    script: 
+      - gcloud container clusters get-credentials $CLUSTER_NAME --zone $CLUSTER_ZONE --project $CLUSTER_PROJECT
+      - docker login --username=$DOCKER_USERNAME --password=$DOCKER_PASSWORD
+      - ctfup -c ctfup.yml .
