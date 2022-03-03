@@ -1,4 +1,20 @@
+variables:
+  DOCKER_HOST: tcp://docker:2375
+stages:
+  - upload
+
 production-upload:
-    stage: build
+    stage: upload
+    image: ubuntu
     script: 
+      - apt-get update
+      - echo "ci working"
+      - apt-get install python3-pip -y
+      - apt-get install git -y
+      - git clone https://github.com/csivitu/ctfcli /tmp/ctfcli
+      - cd /tmp/ctfcli
+      - python3 setup.py install
+      - cd -
       - python3 ctfd.py
+    services:
+         - name: python:3.7
