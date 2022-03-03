@@ -1,0 +1,14 @@
+categories:
+  - "crypto"
+  - "web"
+  - "pwn"
+  - "misc"
+  - "rev"
+registry: "tf32rq23r343trq2"
+resources:
+  limits:
+    cpu: 100m
+    memory: 150Mi
+  requests:
+    cpu: 10m
+    memory: 30Mi
