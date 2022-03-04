@@ -1,0 +1,3 @@
+Open up the file in IDA graph view after increasing the maximum number of nodes
+
+You will see the graphs make up the text of a flag

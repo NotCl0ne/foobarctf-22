@@ -1,0 +1,31 @@
+name: "Find My Location"
+author: "electron"
+category: Web
+
+description: |
+  Can you find me in all this pollution........ ?
+  http://chall.ctf.nitdgplug.org:30230/
+
+value: 500
+type: standard
+
+flags:
+  - GLUG{9orO7yp3_po11u7iOn_f1nd_1oc4tiOn}
+
+tags:
+  - web
+
+state: hidden
+files:
+  - "web/FindMyLocation/server.js"
+version: "0.1"
+
+containers:
+  server:
+    build: .
+    ports:
+      - containerPort: 9999
+
+expose:
+- containerPort: 9999
+  nodePort: 30230

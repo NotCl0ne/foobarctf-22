@@ -1,0 +1,4 @@
+file ENC.zip # ZIP file
+zip PLAIN.zip CRACKME.jpg
+# need to install pkcrack before
+pkcrack -C ENC.zip -c CRACKME.jpg -P PLAIN.zip -p CRACKME.jpg -d cracked.zip -a
