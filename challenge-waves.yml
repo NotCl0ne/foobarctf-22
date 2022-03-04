@@ -1,9 +1,9 @@
 wave1:
-    crypto:
-        - Trailing_BIts
-        - daredevil
-        - random-fandom
-        - sigma-bg
+    # crypto:
+        #- Trailing_BIts
+        #- daredevil
+        #- random-fandom
+        #- sigma-bg
     misc:
         - BiggerPicture
         - FireCrackers
