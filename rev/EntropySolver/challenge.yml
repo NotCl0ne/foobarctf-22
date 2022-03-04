@@ -5,11 +5,11 @@ category: Rev
 description: |
   Random types of Randomisation algorithims yeild constant results
 
-type: dynamic
+type: standard
 
-value: 500
-decay: 40
-minimum: 100
+#value: 500
+#decay: 40
+#minimum: 100
 
 flags:
   -  GLUG{viRTuAl_r@Nd0MiZ3R}
