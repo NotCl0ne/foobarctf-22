@@ -21,6 +21,6 @@ wave1:
         - letsgo
     web:
         - FindMyLocation
-        - fileclub
+        #- fileclub
         - photo-exhibit
-        - whoami
+        #- whoami
