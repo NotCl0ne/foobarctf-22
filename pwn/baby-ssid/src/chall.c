@@ -25,5 +25,6 @@ int main()
     signal(SIGSEGV, emitflag);
     fgets(buf,32,stdin);
     printf(buf);
+}
 
   

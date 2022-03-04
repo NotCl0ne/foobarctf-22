@@ -1,0 +1,36 @@
+name: "Hunters"
+author: "0x1337byte"
+category: Pwn
+
+description: |
+  When the hunters become the hunted
+
+type: dynamic
+
+value: 500
+decay: 40
+minimum: 100
+
+
+flags:
+  - GLUG{egg_HUnTER_cH@MpIoN}
+
+files:
+  - "pwn/Hunters/bin/Hunters"
+
+tags:
+  - pwn
+
+state: hidden
+version: "0.1"
+
+replicas: 1
+containers:
+  server:
+    build: .
+    ports:
+      - containerPort: 9999
+
+expose:
+- containerPort: 9999
+  nodePort: 30090

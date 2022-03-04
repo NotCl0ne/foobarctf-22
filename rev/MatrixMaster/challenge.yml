@@ -1,0 +1,24 @@
+name: "Matrix Master"
+author: "0x1337byte"
+category: Rev
+
+description: |
+  Not everything you see and touch are real.....
+
+type: dynamic
+
+value: 500
+decay: 40
+minimum: 100
+
+flags:
+  -  GLUG{EscaP3_7He_m@TRIx}
+
+files:
+  - "rev/MatrixMaster/matrix"
+
+tags:
+  - rev
+
+state: hidden
+version: "0.1"

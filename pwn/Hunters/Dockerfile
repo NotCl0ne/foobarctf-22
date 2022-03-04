@@ -34,5 +34,3 @@ RUN chown -R root:ctf /home/ctf && \
     chmod 740 /home/ctf/flag.txt
 
 CMD ["/start.sh"]
-
-EXPOSE 9999

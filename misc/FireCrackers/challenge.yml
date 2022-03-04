@@ -1,0 +1,25 @@
+name: "Zip Cracker"
+author: "0x1337byte"
+category: Misc
+
+description: |
+  Zip me up and crack me down
+
+type: dynamic
+
+value: 500
+decay: 40
+minimum: 100
+
+flags:
+  - GLUG{CRAckERs_5hInE_BrI6h7_1n_THE_ni6ht_5Ky}
+
+tags:
+  - misc	
+
+state: hidden
+files:
+  - "misc/ZipCracker/dist/ENC.zip"
+  - "misc/ZipCracker/dist/CRACKME.jpg"
+
+version: "0.1"

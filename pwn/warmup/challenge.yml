@@ -1,0 +1,36 @@
+name: "Warmup"
+author: "0x1337byte"
+category: Pwn
+
+description: |
+  Can you help find the canary? 
+
+type: dynamic
+
+value: 500
+decay: 40
+minimum: 100
+
+
+flags:
+  - GLUG{1f_y0u_don't_t4k3_r1sk5_y0u_c4n't_cr3at3_4_future!}
+
+files:
+  - "pwn/warmup/bin/chall"
+
+tags:
+  - pwn
+
+state: hidden
+version: "0.1"
+
+replicas: 1
+containers:
+  server:
+    build: .
+    ports:
+      - containerPort: 9999
+
+expose:
+- containerPort: 9999
+  nodePort: 30091
