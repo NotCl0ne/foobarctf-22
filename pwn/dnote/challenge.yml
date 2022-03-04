@@ -1,0 +1,37 @@
+name: "dnote"
+author: "ЕЯЯОЯ"
+category: Pwn
+
+description: |
+  Who knew that the god of death loved apples
+  nc chall.foobar.nitdgplug.org 30094
+
+type: dynamic
+
+value: 500
+decay: 40
+minimum: 100
+
+
+flags:
+  - GLUG{5ometimes_th3_questi0n5_4re_c0mpl1c4t3d_4nd_th3_4nswe3r5_ar3_s1mpl3}
+
+files:
+  - pwn/dnote/dist.zip
+
+tags:
+  - pwn
+
+state: hidden
+version: "0.1"
+
+replicas: 2
+containers:
+  server:
+    build: .
+    ports:
+      - containerPort: 9999
+
+expose:
+- containerPort: 9999
+  nodePort: 30094

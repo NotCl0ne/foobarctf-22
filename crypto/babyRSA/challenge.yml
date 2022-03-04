@@ -1,0 +1,26 @@
+name: babyRSA
+author: "ЕЯЯОЯ"
+category: Crypto
+
+description: |
+  You know the drill
+
+type: dynamic
+
+value: 500
+decay: 40
+minimum: 100
+
+files:
+  - crypto/babyRSA/dist/enc.py
+  - crypto/babyRSA/dist/output.txt
+
+flags:
+  - GLUG{ded1cati0n_i5_4_tal3n7_4ll_0n_it5_0wn}
+
+tags:
+  - crypto
+
+state: hidden
+
+version: "0.1"
