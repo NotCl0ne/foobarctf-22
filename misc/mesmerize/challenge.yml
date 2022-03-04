@@ -19,7 +19,7 @@ tags:
   - misc
 
 files:
-  - chall.zip
+  - misc/mesmerize/dist/chall.zip
 
 state: hidden
 

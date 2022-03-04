@@ -12,6 +12,9 @@ value: 500
 decay: 40
 minimum: 100
 
+files:
+  - web/whoami/whoami.tar.gz
+
 flags:
   - GLUG{n0w_1_kn0w_wh0_4r3_y0u_1FOXABB6GM}
 
