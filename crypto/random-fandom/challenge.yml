@@ -1,0 +1,26 @@
+name: Random Fandom
+author: "Parallax Knight"
+category: Crypto
+
+description: |
+  .
+
+type: dynamic
+
+value: 500
+decay: 40
+minimum: 100
+
+files:
+  - crypto/random-fandom/dist/enc.py
+  - crypto/random-fandom/dist/Output.txt
+
+flags:
+  - GLUG{50_mUch_R4nd0m_3nCr1P710n_D79288C4D4D67DF8}
+
+tags:
+  - crypto
+
+state: hidden
+
+version: "0.1"

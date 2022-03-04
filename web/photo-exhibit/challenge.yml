@@ -3,8 +3,8 @@ author: "CyberCitizen01"
 category: Web
 
 description: |
-    Capturing life. Creating art.
-    http://chall.nitdgplug.org:30623
+  Capturing life. Creating art.
+  http://chall.foobar.nitdgplug.org:30623
 
 type: dynamic
 
@@ -19,7 +19,7 @@ tags:
   - web
 
 files:
-  - ThePhotoExhibit.tar.gz
+  - web/photo-exhibit/dist/ThePhotoExhibit.tar.gz
 
 state: hidden
 

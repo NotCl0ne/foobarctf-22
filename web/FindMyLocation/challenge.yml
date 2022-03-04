@@ -3,8 +3,8 @@ author: "electron"
 category: Web
 
 description: |
-  OBJECTive : FIND THE FLAG !!!
-  http://chall.ctf.nitdgplug.org:30230/
+  Can you find me in all this pollution........ ?
+  http://chall.foobar.nitdgplug.org:30230/
 
 value: 500
 type: standard
@@ -16,6 +16,7 @@ tags:
   - web
 
 state: hidden
+
 files:
   - "web/FindMyLocation/server.js"
 version: "0.1"

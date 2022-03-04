@@ -4,6 +4,7 @@ category: Pwn
 
 description: |
   What are these signals we are recieving ?
+  nc chall.foobar.nitdgplug.org 30092
 
 type: dynamic
 

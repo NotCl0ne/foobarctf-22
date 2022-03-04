@@ -3,7 +3,8 @@ author: "0x1337byte"
 category: Pwn
 
 description: |
-  Can you help find the canary? 
+  Can you help find the canary?
+  nc chall.foobar.nitdgplug.org 30091
 
 type: dynamic
 

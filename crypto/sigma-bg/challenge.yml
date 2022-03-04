@@ -1,0 +1,26 @@
+name: Σ BG
+author: "ЕЯЯОЯ"
+category: Crypto
+
+description: |
+  For sigma Hackers only
+
+type: dynamic
+
+value: 500
+decay: 40
+minimum: 100
+
+files:
+  - crypto/sigma-bg/dist/chall.py
+  - crypto/sigma-bg/dist/output.txt
+
+flags:
+  - GLUG{lif3_1s_n0_N1n7end0_g4m3_JSYN1HEKMF}
+
+tags:
+  - crypto
+
+state: hidden
+
+version: "0.1"

@@ -4,6 +4,7 @@ category: Pwn
 
 description: |
   When the hunters become the hunted
+  nc chall.foobar.nitdgplug.org 30090
 
 type: dynamic
 

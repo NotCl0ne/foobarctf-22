@@ -8,9 +8,9 @@ RUN pip3 install --no-cache-dir \
     pycryptodome \
     colorama
 
-COPY ctf.xinetd /etc/xinetd.d/ctf
+COPY server/ctf.xinetd /etc/xinetd.d/ctf
 
-COPY server.py enc.py /
+COPY server/server.py server/enc.py /
 
 CMD ["xinetd", "-dontfork"]
 

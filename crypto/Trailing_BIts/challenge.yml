@@ -1,0 +1,26 @@
+name: Trailing Bits
+author: "Parallax Knight"
+category: Crypto
+
+description: |
+  .
+
+type: dynamic
+
+value: 500
+decay: 40
+minimum: 100
+
+files:
+  - crypto/Trailing_BIts/dist/chall.py
+  - crypto/Trailing_BIts/dist/Output.txt
+
+flags:
+  - GLUG{Qu4dr471C_R351dU35_4R3_fun_0r_4r3_7h3y}
+
+tags:
+  - crypto
+
+state: hidden
+
+version: "0.1"

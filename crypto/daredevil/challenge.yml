@@ -1,0 +1,38 @@
+name: Daredevil's server
+author: "ЕЯЯОЯ"
+category: Crypto
+
+description: |
+  Matt-Murdock is one my favourite 
+  character from marvel universe.
+
+  I found his msg signing server can you 
+  help me to retrive his secret.
+  nc chall.foobar.nitdgplug.org 30093
+
+type: dynamic
+
+value: 500
+decay: 40
+minimum: 100
+
+flags:
+  - GLUG{fl4g_15_53rv3d_xD_E9644V2GG0}
+
+tags:
+  - crypto
+
+state: hidden
+
+version: "0.1"
+
+replicas: 2
+containers:
+  server:
+    build: .
+    ports:
+      - containerPort: 9999
+
+expose:
+- containerPort: 9999
+  nodePort: 30093
