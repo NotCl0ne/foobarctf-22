@@ -17,7 +17,15 @@ blacklist = [
     "subprocess",
     "input",
     "blacklist",
-    "sys"
+    "sys",
+    "ls",
+    "cat",
+    "echo",
+    "la",
+    "flag",
+    "tac",
+    "grep",
+    "find"
 ]
 
 builtin = __builtins__.__dict__.keys()

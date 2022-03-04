@@ -1,0 +1,38 @@
+name: "Foobar Jail"
+author: "R1t4bR4t4"
+category: Misc
+
+description: >-
+  How dare you tresspass, my friend? <br>
+  `nc chall.ctf.nitdgplug.org 30077`
+  <center>
+
+  ![meme](https://i.pinimg.com/originals/47/f4/8a/47f48a6b37070b9971a79751523bda77.png)
+
+  </center>
+  
+value: 100
+
+type: standard
+
+tags:
+  - sandbox
+  - pyjail
+
+flags:
+  - GLUG{h4v3_4_n!c3_e5c4p3_WKMN1IM7FU}
+
+state: hidden
+
+version: "0.1"
+
+replicas: 1
+containers:
+  server:
+    build: .
+    ports:
+      - containerPort: 9999
+
+expose:
+- containerPort: 9999
+  nodePort: 30077
