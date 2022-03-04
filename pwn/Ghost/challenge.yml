@@ -1,0 +1,36 @@
+name: "Ghost"
+author: "0x1337byte"
+category: Pwn
+
+description: |
+ Ghost from the past, back to haunt you or maybe help you
+
+type: dynamic
+
+value: 500
+decay: 40
+minimum: 100
+
+
+flags:
+  - GLUG{w31CoM3_t0_mY_hOU$e}
+
+files:
+  - "pwn/Ghost/bin/ghost"
+
+tags:
+  - pwn
+
+state: hidden
+version: "0.1"
+
+replicas: 1
+containers:
+  server:
+    build: .
+    ports:
+      - containerPort: 9999
+
+expose:
+- containerPort: 9999
+  nodePort: 30096
