@@ -1,0 +1,26 @@
+name: "Mesmerize"
+author: "CyberCitizen01"
+category: Misc
+
+description: |
+  Twisted mesmerizing curvz..zZ zZ zZ
+
+type: dynamic
+
+value: 500
+decay: 40
+minimum: 100
+
+
+flags:
+  - GLUG{W3ll_4r3_y0u_m35m3r!z3d?..}
+
+tags:
+  - misc
+
+files:
+  - chall.zip
+
+state: hidden
+
+version: "0.1"

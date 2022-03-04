@@ -1,0 +1,39 @@
+name: "Battle of New York"
+author: "CyberCitizen01"
+category: Misc
+
+description: |
+    Man down! Man down! I repeat! Man do...
+    nc chall.nitdgplug.org 30622
+
+type: dynamic
+
+value: 500
+decay: 40
+minimum: 100
+
+
+flags:
+  - GLUG{Hydr4_!5_4l!v3_<0__0>_848745426986bbc0}
+
+tags:
+  - misc
+  - nostalgia
+
+files:
+  - S.H.I.E.L.D.js
+
+state: hidden
+
+version: "0.1"
+
+replicas: 2
+containers:
+  server:
+    build: .
+    ports:
+      - containerPort: 9999
+
+expose:
+- containerPort: 9999
+  nodePort: 30622
