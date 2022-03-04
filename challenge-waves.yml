@@ -7,7 +7,7 @@ wave1:
     misc:
         - BiggerPicture
         - FireCrackers
-        - FoobarJail
+        - FooBarJail
         - mesmerize
         - shield
     pwn:
@@ -21,6 +21,6 @@ wave1:
         - letsgo
     web:
         - FindMyLocation
-        - fileclub
+        #- fileclub
         - photo-exhibit
-        - whoami
+        #- whoami
