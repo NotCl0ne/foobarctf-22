@@ -18,7 +18,7 @@ const users = [
 ];
 
 const myLoaction = [
-    { flag: "GLUG{mag1c_0f_proto_6ZB84A6UFG}" }
+    { flag: "9orO7yp3_po11u7iOn_f1nd_1oc4tiOn" }
 ]
 
 function findUser(auth) {
