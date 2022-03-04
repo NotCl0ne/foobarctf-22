@@ -13,6 +13,9 @@ WORKDIR /home/fileclub/
 
 COPY app/ app
 
+RUN mkdir -p app/uploads
+RUN mkdir -p app/extracted
+
 COPY nginx.conf entrypoint.sh req.txt ./
 
 RUN chmod +x entrypoint.sh
