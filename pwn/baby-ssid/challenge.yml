@@ -1,0 +1,36 @@
+name: "Baby SSID"
+author: "ЕЯЯОЯ"
+category: Pwn
+
+description: |
+  What are these signals we are recieving ?
+
+type: dynamic
+
+value: 500
+decay: 40
+minimum: 100
+
+
+flags:
+  - GLUG{https://bit.ly/3vPXAuD}
+
+files:
+  - "pwn/baby-ssid/bin/ssid"
+
+tags:
+  - pwn
+
+state: hidden
+version: "0.1"
+
+replicas: 1
+containers:
+  server:
+    build: .
+    ports:
+      - containerPort: 9999
+
+expose:
+- containerPort: 9999
+  nodePort: 30092

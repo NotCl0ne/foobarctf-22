@@ -1,0 +1,24 @@
+name: "Baby Rev"
+author: "ЕЯЯОЯ"
+category: Rev
+
+description: |
+  Just a babyrev
+
+type: dynamic
+
+value: 500
+decay: 40
+minimum: 100
+
+flags:
+  -  GLUG{C01nc1d3nc3_c4n_b3_fr3aky_T6LSERDYB6}
+
+files:
+  - "rev/babyrev/dist/chall"
+
+tags:
+  - rev
+
+state: hidden
+version: "0.1"

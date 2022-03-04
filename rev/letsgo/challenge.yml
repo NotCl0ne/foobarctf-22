@@ -1,0 +1,25 @@
+name: "Let's gooo"
+author: "0xsh311"
+category: Rev
+
+description: |
+  Ready, Set, Go .....
+
+type: dynamic
+
+value: 500
+decay: 40
+minimum: 100
+
+flags:
+  -  GLUG{G0oo_b1n4r1Es_ar3_fuN_4563}
+
+files:
+  - "rev/letsgo/dist/encrypteddata.txt"
+  - "rev/letsgo/dist/malgo"
+
+tags:
+  - rev
+
+state: hidden
+version: "0.1"

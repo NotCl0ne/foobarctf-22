@@ -1,0 +1,25 @@
+name: "Bigger Picture"
+author: "0x1337byte"
+category: Misc
+
+description: |
+  To see something up close, sometimes you need to go far
+
+type: dynamic
+
+value: 500
+decay: 40
+minimum: 100
+
+flags:
+  - GLUG{C0NTROL_F10W_GR4PHS}
+
+tags:
+  - misc
+
+state: hidden
+
+files:
+  - "misc/BiggerPicture/pic"
+
+version: "0.1"

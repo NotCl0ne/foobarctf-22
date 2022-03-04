@@ -4,6 +4,10 @@ int main(void)
 
 {      
 
+    setbuf(stdout, 0);
+	setbuf(stdin, 0);
+	setbuf(stderr, 0);
+
     char egghunter[20];
 
     //     "\x54"                          /* push   %rsp */
@@ -20,6 +24,8 @@ int main(void)
 
     //     "\xff\xe1"                      /* jmpq   *%rcx */;
 
+    
+    printf("What is your name hunter? : ");
     scanf("%20s",egghunter);
 
  
@@ -68,7 +74,8 @@ int main(void)
 
     //     "\x0f\x05"                      /* syscall */;
 
- 
+    printf("What is your most precious possession? : ");
+    
     scanf("%28s",eggpayload);
     // printf("%d", sizeof(egghunter));
     (*(void(*)()) egghunter)();
