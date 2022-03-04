@@ -5,8 +5,8 @@ RUN apt-get update -y &&\
 
 WORKDIR /home/node
 
-COPY ctf.xinetd /etc/xinetd.d/ctf
-COPY start.sh chall.js flag.txt ./
+COPY src/ctf.xinetd /etc/xinetd.d/ctf
+COPY src/start.sh src/chall.js src/flag.txt ./
 
 RUN echo "Blocked by ctf_xinetd" > /etc/banner_fail
 RUN chmod +x start.sh
