@@ -1,11 +1,26 @@
 wave1:
     crypto:
-        -
+        - Trailing_BIts
+        - daredevil
+        - random-fandom
+        - sigma-bg
     misc:
-        -
+        - BiggerPicture
+        - FireCrackers
+        - FoobarJail
+        - mesmerize
+        - shield
     pwn:
-        -
+        - Hunters
+        - baby-ssid
+        - warmup
     rev:
-        -
+        - EntropySolver
+        - MatrixMaster
+        - babyrev
+        - letsgo
     web:
-        -
+        - FindMyLocation
+        - fileclub
+        - photo-exhibit
+        - whoami
