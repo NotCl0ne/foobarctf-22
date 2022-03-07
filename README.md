@@ -7,6 +7,8 @@
 
 **For more information, refer to our [last year's repository](https://gitlab.com/nit-dgp-ctf/foobarctf-22).**
 
+</div>
+
 ## Overview
 
 |Challenge|Category|Solves|
@@ -39,9 +41,6 @@
 |File Club|Web|0|
 |Sanity Check|Welcome|279|
 |Feedback|Feedback|35|
-
-
-</div>
 
 ## License
 
