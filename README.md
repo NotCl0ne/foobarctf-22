@@ -5,7 +5,7 @@
 
 <br><br>
 
-**For more information, refer to our [last year's repository](https://gitlab.com/nit-dgp-ctf/foobarctf-22).**
+**For more information, refer to our [last year's repository](https://gitlab.com/nit-dgp-ctf/foobar-ctf-2021/foobarctf-21).**
 
 </div>
 
