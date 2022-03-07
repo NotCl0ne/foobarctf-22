@@ -11,12 +11,12 @@ RUN useradd -s /bin/bash ubuntu
 
 WORKDIR /home/fileclub/
 
-COPY app/ app
+COPY src/ app
 
 RUN mkdir -p app/uploads
 RUN mkdir -p app/extracted
 
-COPY nginx.conf entrypoint.sh req.txt ./
+COPY src/nginx.conf src/entrypoint.sh src/req.txt ./
 
 RUN chmod +x entrypoint.sh
 

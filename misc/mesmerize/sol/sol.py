@@ -1,3 +1,7 @@
+"""
+It is an implementation of Hilbert curve, 
+but you can find a mapping easily and reverse chall.txt to flag.txt
+"""
 from math import isqrt
 
 def rotate(point: list[int], rx: int, ry: int, n: int) -> None:
@@ -37,7 +41,7 @@ if __name__ == '__main__':
     for i in range(pow(order, 2)):
         x, y = index_to_point(i, order)
         chars[y][x] = mesmerized[i % row][i // row]
-    with open('flag-chunk-1.txt', 'w') as file:
+    with open('flag.txt', 'w') as file:
         file.writelines([
             ''.join(c) + '\n' for c in chars
         ])

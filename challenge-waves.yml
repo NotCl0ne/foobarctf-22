@@ -1,26 +1,46 @@
 wave1:
-    # crypto:
-        #- Trailing_BIts
-        #- daredevil
-        #- random-fandom
-        #- sigma-bg
+    crypto:
+        - Trailing_BIts
+        - babyRSA
     misc:
         - BiggerPicture
-        - FireCrackers
         - FooBarJail
-        - mesmerize
-        - shield
     pwn:
-        - Hunters
         - baby-ssid
         - warmup
     rev:
-        - EntropySolver
-        - MatrixMaster
         - babyrev
         - letsgo
     web:
         - FindMyLocation
-        #- fileclub
         - photo-exhibit
-        #- whoami
+
+wave2:
+    crypto:
+        - random-fandom
+        - daredevil
+    misc:
+        - FireCrackers
+    pwn:
+        - Hunters
+        - onepunch
+    rev:
+        - MatrixMaster
+        - Bijective
+    web:
+        - whoami
+
+wave3:
+    crypto:
+        - sigma-bg
+        - new-intern
+    misc:
+        - mesmerize
+        - shield
+    pwn:
+        - Ghost
+        - dnote
+    rev:
+        - EntropySolver
+    web:
+        - fileclub

@@ -15,7 +15,7 @@ flags:
   -  GLUG{viRTuAl_r@Nd0MiZ3R}
 
 files:
-  - "rev/EntropySolver/entropy"
+  - "rev/EntropySolver/bin/entropy"
 
 tags:
   - rev

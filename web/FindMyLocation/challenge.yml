@@ -20,7 +20,7 @@ tags:
   - web
 
 files:
-  - "web/FindMyLocation/server.js"
+  - "web/FindMyLocation/dist/server.js"
 
 state: hidden
 

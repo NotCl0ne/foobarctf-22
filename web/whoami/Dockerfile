@@ -13,8 +13,8 @@ WORKDIR /app
 RUN curl -sL https://deb.nodesource.com/setup_12.x | bash -
 RUN  apt install nodejs
 
-COPY . /app/
-COPY haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
+COPY src /app/
+COPY src/haproxy.cfg /usr/local/etc/haproxy/haproxy.cfg
 
 RUN chown -R bonk:bonk /app
 

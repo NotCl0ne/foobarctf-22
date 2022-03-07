@@ -15,7 +15,7 @@ flags:
   -  GLUG{EscaP3_7He_m@TRIx}
 
 files:
-  - "rev/MatrixMaster/matrix"
+  - "rev/MatrixMaster/dist/matrix"
 
 tags:
   - rev

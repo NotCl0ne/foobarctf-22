@@ -20,6 +20,6 @@ tags:
 state: hidden
 
 files:
-  - "misc/BiggerPicture/pic"
+  - "misc/BiggerPicture/dist/pic"
 
 version: "0.1"

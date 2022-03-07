@@ -13,7 +13,7 @@ decay: 40
 minimum: 100
 
 files:
-  - web/fileclub/app/app.py
+  - web/fileclub/src/app.py
 
 flags:
   - GLUG{7he_th1ng5_y0u_us3d_7o_0wn_n0w_th3y_0wn_y0u_YA0MQQOFP9}

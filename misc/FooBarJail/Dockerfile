@@ -4,9 +4,9 @@ RUN apt-get update && apt-get install -y \
     xinetd \
  && rm -rf /var/lib/apt/lists/*
 
-COPY ctf.xinetd /etc/xinetd.d/ctf
+COPY src/ctf.xinetd /etc/xinetd.d/ctf
 
-COPY server.py etc/flag.txt /
+COPY src/server.py src/flag.txt /
 
 CMD ["xinetd", "-dontfork"]
 
